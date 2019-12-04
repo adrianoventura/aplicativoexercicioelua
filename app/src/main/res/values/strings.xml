@@ -2,4 +2,10 @@
     <string name="app_name">exercicio1</string>
     <string name="title_activity_exercicio2">exercicio2</string>
     <string name="title_activity_exercicio3">exercicio3</string>
+    <string name="title_activity_exercicio4">exercicio4</string>
+    <string name="title_activity_exercicio5">exercicio5</string>
+    <string name="title_activity_exercicio6">exercicio6</string>
+    <string name="title_activity_exercicio7">exercicio7</string>
+    <string name="title_activity_exercicio8part1">exercicio8part1</string>
+    <string name="title_activity_exercicio8part2">exercicio8part2</string>
 </resources>

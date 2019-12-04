@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".exercicio3">
+    tools:context=".exercicio5">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -20,12 +20,7 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_exercicio3" />
+    <include layout="@layout/content_exercicio5" />
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button" />
 
 </android.support.design.widget.CoordinatorLayout>

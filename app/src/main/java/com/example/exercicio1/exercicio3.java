@@ -2,8 +2,6 @@ package com.example.exercicio1;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
@@ -19,11 +17,20 @@ public class exercicio3 extends AppCompatActivity {
         setContentView(R.layout.activity_exercicio3);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        Button button = findViewById(R.id.calcular);
+        Button button = findViewById(R.id.cq);
         button.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
                 calcularSalario(v);
+            }
+        });
+        Button exe4 = findViewById(R.id.exe4);
+        exe4.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(exercicio3.this,exercicio4.class);
+                startActivity(intent);
+
             }
         });
 
