@@ -39,10 +39,10 @@ public class exercicio4 extends AppCompatActivity {
     void resolverEquacao(View v){
         String texto = "";
         TextView resultado = findViewById(R.id.resultado);
-        EditText textX = findViewById(R.id.numParcelas);
-        EditText textY = findViewById(R.id.valorPegar);
-        EditText textF = findViewById(R.id.qtdKm);
-        EditText textZ = findViewById(R.id.nota4);
+        EditText textX = findViewById(R.id.textX);
+        EditText textY = findViewById(R.id.textY);
+        EditText textF = findViewById(R.id.textF);
+        EditText textZ = findViewById(R.id.textZ);
         try{
             Double r = (5* Double.parseDouble(textX.getText().toString()) + 3 * Double.parseDouble(textY.getText().toString()) - 2 * Double.parseDouble(textF.getText().toString())) / Double.parseDouble(textZ.getText().toString());
             texto = r.toString();

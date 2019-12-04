@@ -43,8 +43,8 @@ public class exercicio7 extends AppCompatActivity {
 
     }
     void calcularEmprestimo(View v){
-        EditText numParcelas = findViewById(R.id.numParcelas);
-        EditText valorPego   = findViewById(R.id.valorPegar);
+        EditText numParcelas = findViewById(R.id.nParcelas);
+        EditText valorPego   = findViewById(R.id.vPegar);
         TextView resultado   = findViewById(R.id.resultado);
         TextView valorPago   = findViewById(R.id.valortotal);
         String   texto       = "";

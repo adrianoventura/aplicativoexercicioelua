@@ -46,14 +46,16 @@ public class exercicio6 extends AppCompatActivity {
     }
     void calcularCB(View v){
         final double THRESHOLD = .0001;
-        EditText precoGasolina = findViewById(R.id.numParcelas);
-        EditText precoAlcool   = findViewById(R.id.valorPegar);
-        EditText qtdKm         = findViewById(R.id.qtdKm);
+        EditText precoGasolina = findViewById(R.id.gasolina);
+        EditText precoAlcool   = findViewById(R.id.alcool);
+        EditText kmlalcool         = findViewById(R.id.kmlalcool);
+        EditText kmlgasolina      = findViewById(R.id.kmlgasolina);
+        EditText distancia       = findViewById(R.id.distancia);
         TextView resultado     = findViewById(R.id.resultado);
         String texto           = "";
         try{
-            Double gastocomgasolina = Double.parseDouble(precoGasolina.getText().toString());
-            Double gastoAlcool      = Double.parseDouble(precoAlcool.getText().toString());
+            Double gastocomgasolina = (Double.parseDouble(precoGasolina.getText().toString()) * Double.parseDouble(kmlgasolina.getText().toString()) ) * Double.parseDouble(distancia.getText().toString());
+            Double gastoAlcool      = ( Double.parseDouble(precoAlcool.getText().toString())  * Double.parseDouble(kmlalcool.getText().toString()) ) * Double.parseDouble(distancia.getText().toString());
             if(gastocomgasolina > gastoAlcool) texto = "Usar alcool é melhor opção";
             if(gastoAlcool > gastocomgasolina) texto = "Usar gasolina é a melhor opção";
             if(Math.abs(gastocomgasolina - gastoAlcool) < THRESHOLD ) texto = "Tanto faz alcool ou gasolina pra vc";

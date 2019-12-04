@@ -36,9 +36,9 @@ public class exercicio5 extends AppCompatActivity {
 
     }
     void calcularMedia(View v){
-        EditText nota1 = findViewById(R.id.numParcelas);
-        EditText nota2 = findViewById(R.id.valorPegar);
-        EditText nota3 = findViewById(R.id.qtdKm);
+        EditText nota1 = findViewById(R.id.nota1);
+        EditText nota2 = findViewById(R.id.nota2);
+        EditText nota3 = findViewById(R.id.nota3);
         EditText nota4 = findViewById(R.id.nota4);
         TextView resultado = findViewById(R.id.resultado);
         String texto = "";

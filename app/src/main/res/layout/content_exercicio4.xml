@@ -166,7 +166,7 @@
         app:layout_constraintVertical_bias="0.839" />
 
     <EditText
-        android:id="@+id/numParcelas"
+        android:id="@+id/textX"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -185,7 +185,7 @@
         app:layout_constraintVertical_bias="0.275" />
 
     <EditText
-        android:id="@+id/valorPegar"
+        android:id="@+id/textY"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -203,7 +203,7 @@
         app:layout_constraintVertical_bias="0.384" />
 
     <EditText
-        android:id="@+id/qtdKm"
+        android:id="@+id/textF"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -220,7 +220,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/nota4"
+        android:id="@+id/textZ"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
